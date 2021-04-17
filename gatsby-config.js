@@ -7,7 +7,7 @@ module.exports = {
             resolve: "gatsby-source-graphql",
             options: {
                 typeName: "WPGraphQL",
-                fileName: "wpcontent",
+                fieldName: "wpContent",
                 url: "https://hcny.org/graphql"
             }
         }
