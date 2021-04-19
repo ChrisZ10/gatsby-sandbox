@@ -9,7 +9,7 @@ const Contact = () => {
             <ul>
                 <li>Tel: 123-456-7890</li>
                 <li>Email: abc@dfe.com</li>
-                <li><a href="https://hcny.org" target="_blank">Web: hcny.org</a></li>
+                <li><a href="https://hcny.org" target="_blank" rel="noreferrer">Web: hcny.org</a></li>
             </ul>
         </Layout>
     );

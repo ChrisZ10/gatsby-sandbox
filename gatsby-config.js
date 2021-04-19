@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: "Gatsby Sandbox"
+        title: "Gatsby Sandbox",
+        author: "Chris Zhao"
     },
     plugins: [
         {

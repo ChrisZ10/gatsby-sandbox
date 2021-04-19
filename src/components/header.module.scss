@@ -9,5 +9,12 @@
 }
 
 .navbar-item {
+    font-size: 2rem;
     margin-right: 1.5rem;
+    text-decoration: none;
+    color: #999999;
+}
+
+.navbar-item-active {
+    color: #333333;
 }
