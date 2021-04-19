@@ -10,6 +10,7 @@ module.exports = {
                 fieldName: "wpContent",
                 url: "https://hcny.org/graphql"
             }
-        }
+        },
+        "gatsby-plugin-sass"
     ]
 };
