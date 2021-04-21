@@ -26,6 +26,9 @@ const Header = () => {
                         <Link to="/blog" className={headerStyles.navbarItem} activeClassName={headerStyles.navbarItemActive}>Blog</Link>
                     </li>
                     <li>
+                        <Link to="/post" className={headerStyles.navbarItem} activeClassName={headerStyles.navbarItemActive}>Post</Link>
+                    </li>
+                    <li>
                         <Link to="/about" className={headerStyles.navbarItem} activeClassName={headerStyles.navbarItemActive}>About</Link>
                     </li>
                     <li>
