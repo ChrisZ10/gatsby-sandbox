@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
+import Head from "../components/head";
 
 const Post = () => {
 
@@ -30,6 +31,7 @@ const Post = () => {
 
     return (
         <Layout>
+            <Head subtitle="Post"/>
             <h1>Posts from WordPress</h1>
             <ul>
                 {data.wpContent.posts.edges.map((edge) => {

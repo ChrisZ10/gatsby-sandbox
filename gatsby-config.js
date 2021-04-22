@@ -19,6 +19,7 @@ module.exports = {
                 path: `${__dirname}/src`
             }
         },
+        "gatsby-plugin-react-helmet",
         "gatsby-plugin-sass",
         "gatsby-plugin-playground",
         "gatsby-plugin-sharp",

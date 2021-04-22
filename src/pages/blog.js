@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
+import Head from "../components/head";
 
 const Blog = () => {
     const data = useStaticQuery(graphql`
@@ -24,6 +25,7 @@ const Blog = () => {
 
     return (
         <Layout>
+            <Head subtitle="Blog"/>
             <h1>Blog</h1>
             <ol>
                 {

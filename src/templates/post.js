@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
+import Head from "../components/head";
 
 export const query = graphql`
     query($id: ID!) {
@@ -17,6 +18,7 @@ export const query = graphql`
 const Post = ({ data }) => {
     return (
         <Layout>
+            <Head subtitle={data.wpContent.post.title}/>
             <h1>{data.wpContent.post.title}</h1>
             <div dangerouslySetInnerHTML={{__html: data.wpContent.post.content}}></div>
         </Layout>
